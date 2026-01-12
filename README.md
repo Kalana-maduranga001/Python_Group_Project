@@ -81,31 +81,32 @@ VHN faces significant financial penalties under the Hospital Readmissions Reduct
 - **Visualization**: Interactive charts and graphs for stakeholder communication
 
 ## 📁 Project Structure
+
 Strategic Patient Risk - Health Network/
 │
-├── data/ # Data files
-│ ├── diabetic_data.csv # Primary dataset
-│ └── IDs_mapping.csv # Code mappings
+├── data/                    # Data files
+│   ├── diabetic_data.csv    # Primary dataset
+│   └── IDs_mapping.csv      # Code mappings
 │
-├── notebooks/ # Jupyter notebooks
-│ └── analysis.ipynb # Complete analysis notebook
+├── notebooks/               # Jupyter notebooks
+│   └── analysis.ipynb       # Complete analysis notebook
 │
-├── src/ # Source code
-│ ├── data_cleaning.py # Data preprocessing functions
-│ ├── web_scraper.py # ICD-9 code scraper
-│ ├── feature_engineering.py # VCI implementation
-│ └── visualization.py # Plotting functions
+├── src/                     # Source code
+│   ├── data_cleaning.py    # Data preprocessing functions
+│   ├── web_scraper.py      # ICD-9 code scraper
+│   ├── feature_engineering.py # VCI implementation
+│   └── visualization.py    # Plotting functions
 │
-├── reports/ # Documentation
-│ ├── strategic_report.pdf # Executive business report
-│ └── technical_appendix.pdf # Detailed technical documentation
+├── reports/                 # Documentation
+│   ├── strategic_report.pdf # Executive business report
+│   └── technical_appendix.pdf # Detailed technical documentation
 │
-├── images/ # Visualizations
-│ ├── demographic_analysis.png
-│ ├── medication_efficacy.png
-│ └── vci_stratification.png
+├── images/                  # Visualizations
+│   ├── demographic_analysis.png
+│   ├── medication_efficacy.png
+│   └── vci_stratification.png
 │
-└── README.md # This file
+└── README.md               # This file
 
 
 ## 📊 Key Insights & Findings
