@@ -82,7 +82,6 @@ VHN faces significant financial penalties under the Hospital Readmissions Reduct
 
 ## 📁 Project Structure
 
-## **Or if you want a simpler version:**
 
 ```markdown
 ## 📁 Project Structure
