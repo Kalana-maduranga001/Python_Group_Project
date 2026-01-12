@@ -81,33 +81,31 @@ VHN faces significant financial penalties under the Hospital Readmissions Reduct
 - **Visualization**: Interactive charts and graphs for stakeholder communication
 
 ## 📁 Project Structure
-Strategic Patient Risk - Health Network/
-│
-├── data/ # Data files
-│ ├── diabetic_data.csv # Primary dataset
-│ └── IDs_mapping.csv # Code mappings
-│
-├── notebooks/ # Jupyter notebooks
-│ └── analysis.ipynb # Complete analysis notebook
-│
-├── src/ # Source code
-│ ├── data_cleaning.py # Data preprocessing functions
-│ ├── web_scraper.py # ICD-9 code scraper
-│ ├── feature_engineering.py # VCI implementation
-│ └── visualization.py # Plotting functions
-│
-├── reports/ # Documentation
-│ ├── strategic_report.pdf # Executive business report
-│ └── technical_appendix.pdf # Detailed technical documentation
-│
-├── images/ # Visualizations
-│ ├── demographic_analysis.png
-│ ├── medication_efficacy.png
-│ └── vci_stratification.png
-│
-└── README.md # This file
 
-text
+## **Or if you want a simpler version:**
+
+```markdown
+## 📁 Project Structure
+- **data/** - Contains all data files
+  - `diabetic_data.csv` - Primary clinical dataset
+  - `IDs_mapping.csv` - Code mappings for admissions/discharges
+- **notebooks/** - Jupyter notebooks
+  - `analysis.ipynb` - Complete analysis notebook
+- **src/** - Source code modules
+  - `data_cleaning.py` - Data preprocessing functions
+  - `web_scraper.py` - ICD-9 web scraping module
+  - `feature_engineering.py` - VCI scoring implementation
+  - `visualization.py` - Plotting and chart functions
+- **reports/** - Documentation
+  - `strategic_report.pdf` - Business report for executives
+  - `technical_appendix.pdf` - Detailed technical documentation
+- **images/** - Generated visualizations
+  - `demographic_analysis.png`
+  - `medication_efficacy.png`
+  - `vci_stratification.png`
+- **requirements.txt** - Python dependencies
+- **.gitignore** - Git ignore rules
+- **README.md** - This documentation file
 
 ## 📊 Key Insights & Findings
 
