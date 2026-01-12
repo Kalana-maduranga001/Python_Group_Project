@@ -81,33 +81,33 @@ VHN faces significant financial penalties under the Hospital Readmissions Reduct
 - **Visualization**: Interactive charts and graphs for stakeholder communication
 
 ## 📁 Project Structure
-
 Strategic Patient Risk - Health Network/
 │
-├── data/                    # Data files
-│   ├── diabetic_data.csv    # Primary dataset
-│   └── IDs_mapping.csv      # Code mappings
+├── data/ # Data files
+│ ├── diabetic_data.csv # Primary dataset
+│ └── IDs_mapping.csv # Code mappings
 │
-├── notebooks/               # Jupyter notebooks
-│   └── analysis.ipynb       # Complete analysis notebook
+├── notebooks/ # Jupyter notebooks
+│ └── analysis.ipynb # Complete analysis notebook
 │
-├── src/                     # Source code
-│   ├── data_cleaning.py    # Data preprocessing functions
-│   ├── web_scraper.py      # ICD-9 code scraper
-│   ├── feature_engineering.py # VCI implementation
-│   └── visualization.py    # Plotting functions
+├── src/ # Source code
+│ ├── data_cleaning.py # Data preprocessing functions
+│ ├── web_scraper.py # ICD-9 code scraper
+│ ├── feature_engineering.py # VCI implementation
+│ └── visualization.py # Plotting functions
 │
-├── reports/                 # Documentation
-│   ├── strategic_report.pdf # Executive business report
-│   └── technical_appendix.pdf # Detailed technical documentation
+├── reports/ # Documentation
+│ ├── strategic_report.pdf # Executive business report
+│ └── technical_appendix.pdf # Detailed technical documentation
 │
-├── images/                  # Visualizations
-│   ├── demographic_analysis.png
-│   ├── medication_efficacy.png
-│   └── vci_stratification.png
+├── images/ # Visualizations
+│ ├── demographic_analysis.png
+│ ├── medication_efficacy.png
+│ └── vci_stratification.png
 │
-└── README.md               # This file
+└── README.md # This file
 
+text
 
 ## 📊 Key Insights & Findings
 
@@ -142,14 +142,14 @@ The Vitality Complexity Index successfully identified high-risk patients with si
 ### Installation
 ```bash
 pip install pandas numpy matplotlib seaborn beautifulsoup4 requests jupyter
-
+Running the Analysis
+bash
 # Launch Jupyter Notebook
 jupyter notebook notebooks/analysis.ipynb
 
 # Or run specific modules
 python src/data_cleaning.py
 python src/web_scraper.py
-
 📚 References
 Centers for Medicare & Medicaid Services. (2025). Hospital Readmissions Reduction Program
 
@@ -166,12 +166,14 @@ This project is for educational purposes as part of academic coursework.
 Note: This project simulates a real-world healthcare analytics scenario using de-identified data. All patient privacy regulations and ethical guidelines have been respected in the analysis.
 
 📍 Online Image Links for README
+Replace these placeholders with your actual image URLs:
+
+text
 ![Project Workflow](https://your-image-host.com/project_workflow.png)
 ![Demographic Analysis](https://your-image-host.com/demographic_analysis.png)
 ![VCI Results](https://your-image-host.com/vci_results.png)
 ![Medication Efficacy](https://your-image-host.com/medication_efficacy.png)
 ![Correlation Heatmap](https://your-image-host.com/correlation_heatmap.png)
-
 🚀 Quick Start
 Clone the repository
 
@@ -180,7 +182,3 @@ Install dependencies
 Run the Jupyter notebook
 
 Review the strategic report for business insights
-
-Disclaimer: This is a simulated project for educational purposes. Actual healthcare implementation would require clinical validation and regulatory compliance.
-
-This updated README now includes detailed explanations of all four phases with the simple, clear explanations you requested. It maintains a professional tone while being easy to understand for both technical and non-technical readers.
